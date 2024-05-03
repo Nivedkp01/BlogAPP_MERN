@@ -1,0 +1,38 @@
+.outerbox{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create{
+    background-image: linear-gradient(to right,#c2f7e5,#acd2e9);
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.create input{
+    width: 50%;
+}
+
+
+@media (min-width:1000px) {
+    .create{
+        width: 40%;
+    }
+    
+}
+.areab{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    width: 50%;
+
+}

@@ -1,0 +1,29 @@
+h4{
+    font-size: 1 rem;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(114, 112, 112);
+    text-decoration: none;
+}
+.nav Link{
+    
+}
+.new{
+    display: flex;
+    gap: 10px;
+}
+
+.h4{
+    text-decoration: none;
+    color: inherit;
+}
+
+.h5{
+    text-decoration: none;
+    color: blue;
+}

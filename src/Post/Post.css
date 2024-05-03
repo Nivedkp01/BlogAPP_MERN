@@ -1,0 +1,83 @@
+.image{
+  width: 200px;
+  height: 150px;
+}
+.card{
+  width: 40%;
+  display: flex;
+ 
+ 
+ 
+}
+.outerb{
+  display: flex;
+  width: 100%;
+  /* justify-content: center; */
+  height: 100vh;
+ 
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  flex-direction: column;
+
+}
+
+.info{
+  display: flex; 
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.search{
+  width: 20vw;
+
+  margin: auto;
+  margin-top: 5%;
+  border: 1px solid black;
+
+}
+
+.searchdiv{
+ 
+  width: 100vw;
+  padding-left: 150%;
+  position: relative;
+}
+
+.searchbtn{
+      position: inherit;
+      width: 10px;
+      height: 10px;
+      
+}
+.searchbtn:hover{
+  background-color: white;
+  position: absolute;
+
+}
+
+
+@media (max-width:800px) {
+  .search{
+    width: 70vw;
+  
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+  
+  }
+
+  .searchdiv{
+    width: 100vw;
+    padding: 1px;
+    position: relative;
+  }
+}
+
+.s{
+  margin: 5px;
+}
+
+.se:hover{
+  cursor: pointer;
+}

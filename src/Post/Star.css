@@ -1,0 +1,18 @@
+/* Star.css */
+
+.active {
+    color: gold; /* Set the color of active stars */
+  }
+  
+  .inactive {
+    color: #ccc; /* Set the color of inactive stars */
+  }
+  
+
+  @media (max-width:800px) {
+    .inactive, .active {
+      width: 20px; /* Adjust the width as needed */
+      height: 20px; /* Adjust the height as needed */
+    }
+  }
+  
